@@ -1,0 +1,28 @@
+{
+  "name": "imagine-aprendendo",
+  "version": "1.0.0",
+  "description": "Same project but learning deeply",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "npx live-server src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jean-junior/imagine-aprendendo.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "Javascript"
+  ],
+  "author": "Jean Francisco Wilberstaedt Junior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jean-junior/imagine-aprendendo/issues"
+  },
+  "homepage": "https://github.com/jean-junior/imagine-aprendendo#readme",
+  "devDependencies": {
+    "livre-server": "0.0.10"
+  }
+}
