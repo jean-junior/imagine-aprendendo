@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap");
 
 :root {
-  --color-primary: #ffc500;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
+  --color-primary: #ffc500;
+  --default-padding: 1rem;
 }
 
 body {
@@ -69,4 +70,77 @@ ul {
   font-size: 0.875rem;
   /* float: right;
   padding: 0 3.2rem; */
+}
+
+#slider {
+  background-color: #000000;
+  color: #fff;
+  /* background-image: url('./images/banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;*/
+} 
+
+#slider h6{
+  margin: 0;
+}
+
+.slide{
+  height: calc(92vh - 7.75rem);
+  position: relative;
+  z-index:1;
+}
+
+.slide__background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+
+}
+
+.slide__copy {
+  position:absolute;
+  left: 50vw;
+  top: 0;
+}
+
+.slide__copy h6 {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .1875rem;
+}
+
+.slide__copy h2{
+  font-size: 6.25rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 6.25rem;
+}
+
+.btn{
+  padding: 1.25rem 2.5rem;
+  color: var(--color-primary);
+  border: 0.125rem solid #fff;
+  background: unset;
+  border-radius: 2rem;
+  font-size: .9375rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: .7s all ease;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+  color: #000000;
+  transition: ;
+  background-color: var(--color-primary);
+}
+
+.btn--slider:hover,
+.btn--slider:active,
+.btn--slider:focus {
+
 }
